@@ -7,7 +7,18 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+
+  -- Packs
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.svelte" },
+
+  -- Themes
+  { import = "astrocommunity.colorscheme.hybrid-nvim" },
+  { import = "astrocommunity.colorscheme.github-nvim-theme" },
+  { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
+  { import = "astrocommunity.colorscheme.vscode-nvim" },
+  { import = "astrocommunity.colorscheme.mellow-nvim" },
+  { import = "astrocommunity.colorscheme.kanagawa-paper-nvim" },
   -- import/override with your plugins folder
 }
